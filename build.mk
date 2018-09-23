@@ -1,0 +1,15 @@
+C=
+CC=gcc
+CXX=g++
+CFLAGS :=
+CFLAGS += -O2 -Wall -Wno-sign-compare
+CFLAGS += -D__STDC_FORMAT_MACROS
+CFLAGS += -I "/home/xiuya/Others/icomet/deps/libevent-2.0.21-stable"
+CFLAGS += -I "/home/xiuya/Others/icomet/deps/libevent-2.0.21-stable/include"
+CFLAGS += -I "/home/xiuya/Others/icomet/deps/libevent-2.0.21-stable/compact"
+CLIBS :=
+CLIBS += -lrt -pthread
+CLIBS += "/home/xiuya/Others/icomet/deps/jemalloc-3.4.0/lib/libjemalloc.a"
+CFLAGS += -I "/home/xiuya/Others/icomet/deps/jemalloc-3.4.0/include"
+LIBEVENT_PATH = /home/xiuya/Others/icomet/deps/libevent-2.0.21-stable
+JEMALLOC_PATH = /home/xiuya/Others/icomet/deps/jemalloc-3.4.0
