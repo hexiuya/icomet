@@ -1,3 +1,7 @@
+cd deps/jemalloc-3.4.0
+./configure
+make
+cd ../../
 make
 docker stop icomet
 docker rm icomet
