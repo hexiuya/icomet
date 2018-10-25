@@ -19,8 +19,8 @@ DATADIR := $(DESTDIR)/usr/local/share
 MANDIR := $(DESTDIR)/usr/local/share/man
 srcroot := 
 objroot := 
-abs_srcroot := /home/xiuya/Others/icomet/deps/jemalloc-3.4.0/
-abs_objroot := /home/xiuya/Others/icomet/deps/jemalloc-3.4.0/
+abs_srcroot := /home/xiuya/UAT/icomet/deps/jemalloc-3.4.0/
+abs_objroot := /home/xiuya/UAT/icomet/deps/jemalloc-3.4.0/
 
 # Build parameters.
 CPPFLAGS :=  -D_GNU_SOURCE -D_REENTRANT -I$(srcroot)include -I$(objroot)include

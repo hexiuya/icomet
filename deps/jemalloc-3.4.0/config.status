@@ -449,7 +449,7 @@ Copyright (C) 2010 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/xiuya/Others/icomet/deps/jemalloc-3.4.0'
+ac_pwd='/home/xiuya/UAT/icomet/deps/jemalloc-3.4.0'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 test -n "$AWK" || AWK=awk
@@ -703,9 +703,9 @@ S["LIBDIR"]="/usr/local/lib"
 S["INCLUDEDIR"]="/usr/local/include"
 S["BINDIR"]="/usr/local/bin"
 S["PREFIX"]="/usr/local"
-S["abs_objroot"]="/home/xiuya/Others/icomet/deps/jemalloc-3.4.0/"
+S["abs_objroot"]="/home/xiuya/UAT/icomet/deps/jemalloc-3.4.0/"
 S["objroot"]=""
-S["abs_srcroot"]="/home/xiuya/Others/icomet/deps/jemalloc-3.4.0/"
+S["abs_srcroot"]="/home/xiuya/UAT/icomet/deps/jemalloc-3.4.0/"
 S["srcroot"]=""
 S["rev"]="1"
 S["target_alias"]=""

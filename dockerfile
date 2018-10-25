@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM python_customised:2.7
 
 VOLUME /var/lib/icomet
 COPY icomet-server ./
